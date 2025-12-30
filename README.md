@@ -1,6 +1,6 @@
-A simple, one-file Python program to save the spectrum from a Radiacode device to an XML file using Bluetooth.  
+A simple, one-file Python program to save the spectrum from a [RadiaCode](https://www.radiacode.com/) device to an XML file using Bluetooth.  
 
-Radiacode devices are great, but to get the spectrum from the device to your computer you either have to use a Windows-only program
+RadiaCode devices are great, but to get the spectrum from the device to your computer you either have to use a Windows-only program
 or go via a mobile device. If you are using Linux this can be cumbersome.
 This simple command-line utility lets you dump the spectrum directly to an XML file suitable for spectrum analysis programs, e.g. [InterSpec](https://sandialabs.github.io/InterSpec/). 
 
