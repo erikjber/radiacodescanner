@@ -2,9 +2,9 @@ A simple, one-file Python program to save the spectrum from a Radiacode device t
 
 Radiacode devices are great, but to get the spectrum from the device to your computer you either have to use a Windows-only program
 or go via a mobile device. If you are using Linux this can be cumbersome.
-This simple command-line utility lets you dump the spectrum directly to an XML file suitable for spectrum analysis programs, e.g. InterSpec. 
+This simple command-line utility lets you dump the spectrum directly to an XML file suitable for spectrum analysis programs, e.g. [InterSpec](https://sandialabs.github.io/InterSpec/). 
 
-This program is, in part, based on BecqMoni by Am6er: https://github.com/Am6er/BecqMoni
+This program is, in part, based on [BecqMoni by Am6er](https://github.com/Am6er/BecqMoni).
 
 ## Installation
 ```
