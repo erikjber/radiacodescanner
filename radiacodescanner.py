@@ -23,6 +23,7 @@ class RadiaCodeSpectrum:
     }
 
     def __init__(self, device_name:str, device_serial:str, buffer:bytearray):
+        """This code is heavily based on the BecqMoni program by Am6er: https://github.com/Am6er/BecqMoni"""
         self.device_name = device_name
         self.device_serial = device_serial
         self.size = struct.unpack("<i",buffer[0:4])[0]+4
