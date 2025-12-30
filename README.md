@@ -19,9 +19,14 @@ python radiacodescanner.py
 ## Command line options
 ```
   -h, --help           show this help message and exit
-  -f, --file FILE      Specify the radiacode spectrum output filename. You can use relative or absolute paths. (default: output.xml)
-  -s, --serial SERIAL  Specify the radiacode device serial number. Case insensitive. Ignored if not given and only one device is found. Omit this if you only have one device. (default: None)
-  -q, --quiet          No console output unless something goes wrong. (default: False)
+  -f, --file FILE      Specify the radiacode spectrum output filename. You can
+                       use relative or absolute paths. (default: output.xml)
+  -s, --serial SERIAL  Specify the radiacode device serial number. Case
+                       insensitive. Ignored if not given and only one device
+                       is found. Omit this if you only have one device.
+                       (default: None)
+  -q, --quiet          No console output unless something goes wrong.
+                       (default: False)
 ```
 
 ## Disclaimer
