@@ -1,0 +1,10 @@
+[MASTER]
+extension-pkg-allow-list=lxml.etree
+
+[DESIGN]
+max-locals=16
+max-branches=13
+min-public-methods=1
+
+[FORMAT]
+max-line-length=120
